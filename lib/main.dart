@@ -26,19 +26,19 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.white,
         body: SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Card(child: buildKey(color: Colors.black, soundNumber: 1)),
-              Card(child: buildKey(color: Colors.white, soundNumber: 2)),
-              Card(child: buildKey(color: Colors.black, soundNumber: 3)),
-              Card(child: buildKey(color: Colors.white, soundNumber: 4)),
-              Card(child: buildKey(color: Colors.black, soundNumber: 5)),
-              Card(child: buildKey(color: Colors.white, soundNumber: 6)),
-              Card(child: buildKey(color: Colors.black, soundNumber: 7)),
+              buildKey(color: Colors.black, soundNumber: 1),
+              buildKey(color: Colors.white, soundNumber: 2),
+              buildKey(color: Colors.black, soundNumber: 3),
+              buildKey(color: Colors.white, soundNumber: 4),
+              buildKey(color: Colors.black, soundNumber: 5),
+              buildKey(color: Colors.white, soundNumber: 6),
+              buildKey(color: Colors.black, soundNumber: 7),
             ],
           ),
         ),
